@@ -8,6 +8,8 @@
  *
  * Return: pointer to valid function or NULL
  */
+
+
 static int (*check_for_specifiers(const char *format))(va_list)
 {
 	unsigned int i;
