@@ -41,6 +41,8 @@ int print_s(va_list s)
  *
  * Return: number of chars printed (always 2)
  */
+
+
 static int hex_print(char c)
 {
 	int count;
